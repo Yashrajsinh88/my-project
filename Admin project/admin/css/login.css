@@ -1,0 +1,81 @@
+.login1{
+    height: 500px;
+    width: 380px;
+    border: 2px solid rgba(255, 123, 0, 0.803);
+    margin: auto;
+    margin-top:100px;
+    background: rgb(237,112,9);
+    background: linear-gradient(180deg, rgba(237,112,9,0.583158263305322) 45%, rgba(10,223,210,0) 74%);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+/* logo img  */
+.login1>img{
+    float: right;
+}
+
+
+/* login text  */
+.login1>h2{
+margin-top: 50px;
+margin-left: 20px;
+font-size: 30px;
+}
+
+.login1>p{
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+form>input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    /* border-bottom: 1px solid black; */
+    font-size:15px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 10px;
+    color: blueviolet;
+    margin-top: 40px;
+}
+
+form>input:nth-child(1){
+    margin-top: 50px;
+
+}
+
+form>input:nth-child(2){
+   padding-top: 100px;
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    border: none;
+    margin-left: 40px;
+    background: rgb(237,112,9);
+    background: linear-gradient(180deg, rgba(237,112,9,0.6475840336134453) 79%, rgba(14,223,10,0) 100%);
+    color: white;
+    font-size: 17px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.su-b1{
+        height: 50px;
+        width: 300px;
+        border: none;
+        margin-left: 40px;
+        background: rgb(50, 36, 24);
+        background: linear-gradient(180deg, rgba(237,112,9,0.6475840336134453) 79%, rgba(14,223,10,0) 100%);
+        color: rgb(178, 0, 0);
+        font-size: 17px;
+        margin-top: 50px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 3
+}
+
+.su-b1>a{
+    text-decoration: none;
+    color: white;
+
+}

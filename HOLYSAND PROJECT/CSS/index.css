@@ -1,0 +1,644 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    /* border: 1px solid red; */
+}
+/* header started  */
+
+.h-offer{   
+ background-color:rgb(247,213,53);
+ border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.h-offer>.container>h5{
+    font-size: 2.3dvh;
+    text-align: center;
+    line-height: 50px;
+}
+/* 2 */
+
+.main-header{
+    height: 85px;
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.header-content{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* border: 1px solid red;   */
+}
+
+.header-logo{
+    height: 110px;
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.tab-header{
+    display: none;
+}
+
+.tab-header>nav{
+    
+}
+
+/* main section started  */
+
+.hero-section{
+position: relative;
+}
+
+.hero-section>img{
+    position:absolute;
+    z-index:-1;
+    }
+
+.section1-content{
+   width: 85%;
+   display: flex;
+   justify-content: center;    
+   /* border: 1px solid red; */
+   padding-top: 50px;
+   /* position: absolute; */
+   /* z-index:1; */
+   margin: auto;
+}
+
+.s1-welcome{
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.s1-welcome>h1{
+    font-size: 7dvh;
+    color: rgb(36,32,96);
+}
+
+.s1-welcome>h2{
+    font-size:3.5vh;
+}
+
+.s1-welcome>button{
+    width: 30%;
+    font-size: 3vh;
+    border: none; 
+    border-radius: 20px;
+    background-color:rgb(247,213,53);
+}
+
+.s1-photo{
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+}
+
+.s1-photo>img{
+    width: 70%;
+    border-radius:50%;
+    float: right;
+}
+
+/* section 2 started  */
+
+
+/* .section2{
+    height: 475px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+} */
+
+
+.products{
+width: 90%;
+/* border: 1px solid red; */
+margin: auto;
+
+}
+
+.products>h2{
+    text-align: center;
+    /* margin-top: 80px; */
+    color: rgb(41,36,98);
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.all{
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.all>div{
+    width: 20%;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.all>div:nth-child(4){
+    width: 38%;
+}
+
+.all>div:nth-child(6){
+    width: 43%;
+}
+
+.all>div>h6{
+    font-weight:bolder;
+}
+
+/* product box  */
+
+.product-box{
+    height:auto;
+    width: 100%;
+    background-color: rgb(240, 227, 211);
+}
+
+.product-buy{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.product-buy>div{
+    height: 400px;
+    width: 24%;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+}
+
+.divspace{
+    height: 120px; 
+    /* border: 1px solid red; */
+}
+
+/* pouche  */
+
+.pouche{
+    background-color: rgb(253,219,174);
+}
+
+.pouche>div:nth-child(1){
+    height:67%;
+    /* border: 1px solid red; */
+    width: 85%;
+    /* margin: auto; */
+
+}
+
+.pouche>div:nth-child(2){
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+.pouche>div>button{
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247,213,53);
+    font-size: 15px;
+}
+
+.pouche>div>h5{
+    font-weight: bolder;
+}
+
+.pouche>div>button{
+    width: 50%;
+    height: 30px;
+    font-size: 13px;
+}
+
+/* buckets */
+
+.bucket{
+    background-color:rgb(213,213,213);
+}
+
+.bucket>div:nth-child(1){
+    height:67%;
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: auto;
+
+}
+
+.bucket>div:nth-child(2){
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+.bucket>div>button{
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247,213,53);
+    font-size: 15px;
+}
+
+.bucket>div>h5{
+    font-weight: bolder;
+}
+
+.bucket>div>button{
+    width: 50%;
+    height: 30px;
+    font-size: 13px;
+}
+
+
+/* scrunchies */
+
+.scrunchies{
+    background-color: rgb(245,242,237);
+}
+
+.scrunchies>div:nth-child(1){
+    height:67%;
+    /* border: 1px solid    red; */
+    width: 85%;
+    margin: auto;
+
+}
+
+.scrunchies>div:nth-child(2){
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+.scrunchies>div>button{
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247,213,53);
+    font-size: 15px;
+}
+
+.scrunchies>div>h5{
+    font-weight: bolder;
+}
+
+.scrunchies>div>button{
+    width: 50%;
+    height: 30px;
+    font-size: 13px;
+}
+
+/* buckets */
+
+.tote{
+    background-color:rgb(232,233,238);
+}
+
+.tote>div:nth-child(1){
+    height:67%;
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: auto;
+
+}
+
+.tote>div:nth-child(2){
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+.tote>div>button{
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247,213,53);
+    font-size: 15px;
+}
+
+.tote>div>h5{
+    font-weight: bolder;
+}
+
+.tote>div>button{
+    width: 50%;
+    height: 30px;
+    font-size: 13px;
+}
+
+/* button  */
+
+/* .carousel-control-prev{
+    padding-top: 450px;
+} */
+
+/* section 3 strated  */
+
+.greek-text{
+    width: 100%;
+    text-align: center;
+    }
+
+.greek-h2{
+    margin-top: 13vh;
+    font-weight: bolder;
+}
+
+.greek-button{
+    width: 10%;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(247,213,53) ;
+}
+
+.img-opicity{
+    opacity: 45%;
+}
+
+
+/* section 4 started  */
+
+.new-products{
+    height:auto;
+    width: 100%;
+    background-color: rgb(240, 227, 211);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50PX;*/
+    text-align: center; 
+    padding-bottom: 80px;
+}
+
+.new-products>h3{
+    font-weight: bolder;
+    color: rgb(41,36,98);
+    padding-top: 50px;
+}
+
+.newp-box{
+    width: 90%;
+    /* border: 1px solid black; */
+    display: grid;
+    justify-content:space-around;
+    grid-template-columns: repeat(3 , 1fr);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.newp-box>div{
+    height: 380px;
+    width: 75%;
+    /* border: 1px solid red; */
+    margin: auto;
+    background-color: white;
+}
+
+.towel>div:nth-child(1){
+    height: 68%;
+   width: 100%;
+   /* border: 1px solid red; */
+}
+
+.towel>div:nth-child(2){
+    height: 32%;
+   width: 80%;
+   /* border: 1px solid red; */
+   text-align:start;
+   margin: auto;
+}
+
+.towel-btn{
+    height: 5vh;
+    width: 45%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247,213,53);
+    font-size: 1vw;
+}
+
+.towel>div>h5:nth-child(1){
+    font-weight: bolder;
+}
+
+.jungle-hat>div:nth-child(1){
+    height: 68%;
+   width: 100%;
+   /* border: 1px solid red; */
+}
+
+.jungle-hat>div:nth-child(2){
+    height: 32%;
+   width: 80%;
+   /* border: 1px solid red; */
+   text-align:start;
+   margin: auto;
+}
+
+.jungle-hat-btn{
+    height: 5vh;
+    width: 45%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247,213,53);
+    font-size: 1vw;
+}
+
+.jungle-hat>div>h5:nth-child(1){
+    font-weight: bolder;
+}
+
+.umbrella>div:nth-child(1){
+    height: 68%;
+   width: 100%;
+   /* border: 1px solid red; */
+}
+
+.umbrella>div:nth-child(2){
+    height: 32%;
+   width: 80%;
+   /* border: 1px solid red; */
+   text-align:start;
+   margin: auto;
+}
+
+.umbrella-btn{
+    height: 5vh;
+    width: 45%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247,213,53);
+    font-size: 1vw;
+}
+
+.umbrella>div>h5:nth-child(1){
+    font-weight: bolder;
+}
+
+/* SECTOIN 5 STARTED  */
+
+.inspiration{
+    height:400px;
+    width: 100%;
+    background-color: rgb(240, 227, 211);
+}
+
+.inspiration>h3{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(41, 36, 98);
+}
+
+.swiper {
+    width: 90%;
+    height:60%;
+    margin-top: 8vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-next:after{
+    display: none;
+}
+
+.swiper-button-prev:after{
+    display: none;
+}
+
+.swiper-button-prev>div{
+    background-color: rgba(255, 255, 255, 0.733);
+    padding:10px;
+    border-radius: 40%;
+}
+
+.swiper-button-next>div{
+    background-color: rgba(255, 255, 255, 0.733);
+    padding:10px;
+    border-radius: 40%;
+}
+
+  /* section 6 started  */
+
+  .signup{
+    /* height: 500px; */
+    width: 100%;
+    background-image: url(https://rs.wescover.com/c_limit,f_auto,q_auto,w_2000/v1/wescover-user-uploaded/ztd1bpmlpascxueelpsh);
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-position:center;
+    background-size: 100%;
+    background-blend-mode:soft-light;
+    background-color:rgb(247 212 53 / 88%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding:100px 0px;
+  }
+
+  .signup>h3{
+    /* font-size: 1.6vw; */
+    font-weight: bolder;
+  }
+
+  .signup>input{
+    width:40%;
+    border: none;
+    background-color:transparent ;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.281);
+    padding-bottom: 5px;
+    color: black;
+    font-weight:500;
+    font-size: 14px;
+  }
+
+  .signup>button{
+    width: 10%;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(37,32,96);
+    color: white;
+  }
+
+  /* footer strated  */
+
+  .footer-main{
+    width: 100%;
+    background-image: url(../IMG/beachfooter.jpg);
+    background-size: cover; 
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.223);
+  }
+
+.footer-content{
+    width: 90%;
+    margin: auto;
+    display:flex;
+}
+
+.footer-logo{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.footer-text{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-text>li{
+    font-weight: bolder;
+}
+
+.footer-text>li ul h4{
+    font-weight: bolder;
+}
+

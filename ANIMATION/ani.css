@@ -1,0 +1,60 @@
+img{    
+    height: 500px;
+    width: 300px;
+    margin-left: 85vh;
+    margin-top: 100px;
+    animation: abc;
+    animation-duration: 5s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+
+body{
+    animation: xyz;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes abc {
+   0%{
+    transform: rotate(0deg);
+   }   
+    20%{
+        transform: rotate(10deg);
+    }
+    40%{
+        transform: rotate(-10deg);
+    }
+    60%{
+        transform: rotate(10deg);
+    }
+    80%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+
+@keyframes xyz {
+    0%{
+        background-color: aliceblue;
+       }   
+        20%{
+            background-color: aqua;
+        }
+        40%{
+            background-color: blueviolet;
+        }
+        60%{
+            background-color: aquamarine;
+        }
+        80%{
+            background-color: burlywood;
+        }
+        100%{
+            background-color: teal;
+        }
+}
